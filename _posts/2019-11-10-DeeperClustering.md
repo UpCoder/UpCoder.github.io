@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Unsupervised Pre-training of Image Features on Non-Curated Data
-thumbnail: "assets/img/thumbnails/DeepClustering/flowchart.png"
-image: "assets/img/thumbnails/DeepClustering/flowchart.png" #seo tag
+thumbnail: "assets/img/thumbnails/DeeperClustering/flowchart.png"
+image: "assets/img/thumbnails/DeeperClustering/flowchart.png" #seo tag
 tags: [Deep Learning, Paper Reading, Unsupervised Learning]
 color: brown
 ---
@@ -55,7 +55,7 @@ $$
   然后我们利用self-sup的思想，对每个图像进行旋转0，90，180，270度，所以第一层在训练过程中有4m个class。
   我们再对每一个cluster内部再次进行聚类，聚类成K类。所以一共的类别是m*k类。
   - 第二步：我们再通过生成的pseudo label进行学习与训练。
-![img](https://upcoder.github.io/assets/img/thumbnails/DeepClustering/flowchart.png)
+![img](https://upcoder.github.io/assets/img/thumbnails/DeeperClustering/flowchart.png)
 ### Loss function
   &emsp;&emsp;loss函数定义如下所示。总体上来说有两部分组成。
   
